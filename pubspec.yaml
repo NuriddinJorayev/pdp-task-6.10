@@ -1,0 +1,66 @@
+name: planlarim
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.10.6
+  firebase_auth: ^3.3.4
+  animated_text: ^1.0.2
+  shared_preferences: ^2.0.11
+  toast: ^0.1.5
+  email_auth: ^1.0.0
+  image_picker: ^0.8.4+4
+  firebase_database: ^9.0.4
+  firebase_storage: ^10.2.4
+  data_connection_checker: ^0.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+
+
+
+
+  # example:
+  fonts:
+    - family: Fontpilot
+      fonts:
+        - asset: assets/fonts/pilot.ttf
+        
+    - family: FontPrompt
+      fonts:
+        - asset: assets/fonts/Prompt-Regular.ttf
+        
+        
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
